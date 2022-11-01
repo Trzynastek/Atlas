@@ -231,7 +231,7 @@ header {
         border-width: 1px;
         border-color: #00000000;
         margin: auto 10;
-        color: white;
+        color: #00000000;
         float: right;
         height: 52px;
         width: 52px;
@@ -268,7 +268,7 @@ header {
     .page {
         display: grid; 
         grid-template-columns: 1fr;
-        grid-template-rows: 0.25fr 0.25fr 3fr; 
+        grid-template-rows: auto auto auto; 
         gap: 15px 15px; 
         margin-top: 15px;
     }
