@@ -162,12 +162,9 @@ input:focus::placeholder {
 
 .cover {
     max-width: 150px;
-    max-height: 200px;
     margin-right: 15px;
     border-radius: 10px;
-    height: auto;
-    width: auto;
-    display: block;
+    object-fit: cover;
 }
 
 .tagline {
