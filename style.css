@@ -162,6 +162,7 @@ input:focus::placeholder {
 
 .cover {
     max-height: 200px;
+    max-width: 150px;
     margin-right: 15px;
     border-radius: 10px;
 }
