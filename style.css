@@ -209,4 +209,39 @@ body {
     font-size: 16;
     letter-spacing: 3px;
     }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 80px;
+    }
+
+    .logo {
+        height: 70px;
+        margin: auto 5;
+    }
+    
+    .name {
+        margin: auto 0;
+        font-size: 32;
+        letter-spacing: 3px;
+    }
+    
+    .navigation {
+        height: 20px;
+    }
+
+    .button {
+        height: 40px;
+        width: 200px;
+        margin-right: 10px;
+        margin-top: 16px;
+        background: none;
+        border: none;
+        font-size: 32;
+        letter-spacing: 3px;
+        transition-duration: 0.25s;
+        cursor: pointer;
+    }
 }
