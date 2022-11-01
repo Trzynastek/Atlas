@@ -15,7 +15,7 @@ http.onload = function(){
 							<p class="description">${item.description}</p>
 							<div class="tagline">
 								<p class="platforms">${item.platform}</p>
-								<p class="download">${item.download}</p>
+								<p class="download">${item.download} <img class="download-ico" src="download.svg" onclick="location.href='${item.link}';" style="cursor: pointer;"></p>
 							</div>
 						</div>
 					</div>
