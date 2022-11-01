@@ -173,6 +173,10 @@ header {
     visibility: visible;
 }
 
+.download-icon {
+    width: 25px;   
+}
+
 @media only screen and (max-device-width: 1080px) {
     
     .snap {
