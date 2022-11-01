@@ -5,92 +5,12 @@ var list =
 [
 	{
 		"image": "Saturnalia.jpg",
-		"title": "test",
+		"title": "Saturnalia",
 		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
+		"platform": "PC (Epic Games)",
+		"download": "1.9GB",
+		"link": "https://fitgirl-repacks.site/saturnalia/"
 	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "cos",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	},
-	{
-		"image": "Saturnalia.jpg",
-		"title": "test",
-		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Steam)",
-		"download": "10GB",
-		"link": ""
-	}
 ]
 
 //CODE, DO NOT EDIT
