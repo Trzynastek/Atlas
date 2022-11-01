@@ -190,7 +190,7 @@ header {
     .page {
         display: grid; 
         grid-template-columns: 1fr;
-        grid-template-rows: 0.25fr 0.25fr 3fr 0.25fr; 
+        grid-template-rows: 0.25fr 0.25fr 3fr; 
         gap: 15px 15px; 
         margin-top: 15px;
     }
