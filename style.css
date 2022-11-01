@@ -20,6 +20,7 @@ body {
 
 .discord {
     cursor: pointer;
+    width: auto;
 }
 
 .discord:hover {
