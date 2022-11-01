@@ -6,21 +6,22 @@ html * {
 body {
     background: linear-gradient(150deg, rgba(11,12,25,1) 0%, rgba(32,34,49,1) 100%);
     margin: 15px;
+    overflow: hidden;
 }
 
 .box {
-    background-color: #ffffff0f;
+    background-color: #20212e;
     border-radius: 12px;
     border-color: #2b2b2b;
     border-width: 1px;
     border-style: solid;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 40px;
 }
 
 .logotype {
@@ -94,7 +95,7 @@ body {
 .list {
     grid-area: 1 / 2 / 6 / 3;
     overflow-y: scroll;
-    height: 100vh;
+    height: 93.3vh;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
 }
@@ -161,7 +162,31 @@ body {
     visibility: hidden;
 }
 
+header {
+    position: sticky;
+    top: 15;
+    z-index: 10;
+    
+}
+
+.pc {
+    visibility: visible;
+}
+
 @media only screen and (max-device-width: 1080px) {
+    
+    body {
+        overflow: scroll;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #20212e;
+        filter: drop-shadow(0px 0px 10px #000000dd);
+    }
+
     .page {
         display: grid; 
         grid-template-columns: 1fr;
@@ -170,6 +195,10 @@ body {
         margin-top: 15px;
     }
     
+    .pc {
+        visibility: hidden;
+    }
+
     .about {
         grid-area: 1 / 1 / 2 / 2;
     }
