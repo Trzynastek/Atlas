@@ -245,9 +245,9 @@ body {
         cursor: pointer;
     }
     
-    .tagline {
-        display: flexbox;
-        font-size: 32;
+    .download,
+    .platforms {
+        font-size: 14;   
     }
 
     .text {
@@ -266,6 +266,6 @@ body {
     }
     
     .description {
-        font-size: 10;
+        font-size: 12;
     }
 }
