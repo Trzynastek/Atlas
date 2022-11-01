@@ -18,6 +18,14 @@ body {
     
 }
 
+.discord {
+    cursor: pointer;
+}
+
+.discord:hover {
+    color: #ff0044;   
+}
+    
 .request {
     overflow-wrap: break-word;
     grid-area: 2 / 1 / 3 / 2;
