@@ -247,15 +247,15 @@ body {
     
     .tagline {
         display: flexbox;
-        font-size: 10;
-    }
-
-    .text {
         font-size: 12;
     }
 
+    .text {
+        font-size: 8;
+    }
+
     .title {
-        font-size: 16;
+        font-size: 12;
     }
     
     .gametitle {
@@ -263,5 +263,9 @@ body {
         color: #ff0044;
         font-size: 16;
         letter-spacing: 3px;
+    }
+    
+    .description {
+        font-size: 10;
     }
 }
