@@ -371,4 +371,14 @@ header {
     .description {
         font-size: 12;
     }
+    
+    .download-ico {
+        float: right;
+        width: 30px;   
+        cursor: pointer;
+        fill: #888888;
+        margin: auto 10;
+        transform: translateY(80%);
+        transition-duration: 300ms;
+    }
 }
