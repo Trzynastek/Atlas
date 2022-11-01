@@ -7,10 +7,26 @@ var list =
 		"image": "Saturnalia.jpg",
 		"title": "Saturnalia",
 		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "PC (Epic Games)",
+		"platform": "Windows (Epic Games)",
 		"download": "1.9GB",
 		"link": "https://fitgirl-repacks.site/saturnalia/"
 	},
+	{
+		"image": "Spotify.png",
+		"title": "Spotify",
+		"description": "If you are a music lover and have a habit of listening to music on your smartphone, you must have heard of Spotify Premium MOD APK, the world’s number 1 online music app today.",
+		"platform": "Android",
+		"download": "29MB",
+		"link": "https://apkmody.com/apps/spotify-2"
+	},
+	{
+		"image": "Vanced.png",
+		"title": "Youtube Vanced",
+		"description": "Vanced is a better version of the stock Android YouTube app! Includes adblocking, background playback, and lot more. Use the Vanced Manager app to install YouTube Vanced easily.",
+		"platform": "Android",
+		"download": "4.3MB",
+		"link": "https://drive.google.com/file/d/1XzJvQQmecJ6TTO55fBPLkMmlbFgNdHJP/view?usp=share_link"
+	}
 ]
 
 //CODE, DO NOT EDIT
