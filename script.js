@@ -9,7 +9,7 @@ http.onload = function(){
 			output += `
 				<div class="box snap">
 					<div class="offset item">
-						<img class="cover" src="./covers/${item.image}">
+						<img class="cover" src="covers/${item.image}">
 						<div class = content>
 							<p class="gametitle">${item.title}</p>
 							<p class="description">${item.description}</p>
