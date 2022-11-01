@@ -106,6 +106,7 @@ body {
 
 .snap {
     margin-bottom: 15px;
+    margin-rigth: 15px;
     scroll-snap-align: start;
     position: relative;
 }
@@ -173,6 +174,13 @@ header {
 }
 
 @media only screen and (max-device-width: 1080px) {
+    
+    .snap {
+        margin-bottom: 15px;
+        margin-rigth: 0px;
+        scroll-snap-align: start;
+        position: relative;
+    }
     
     body {
         overflow: scroll;
