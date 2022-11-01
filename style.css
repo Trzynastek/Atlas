@@ -247,7 +247,7 @@ body {
     
     .tagline {
         display: flexbox;
-        font-size: 16;
+        font-size: 32;
     }
 
     .text {
@@ -266,6 +266,6 @@ body {
     }
     
     .description {
-        font-size: 12;
+        font-size: 11;
     }
 }
