@@ -166,7 +166,7 @@ body {
     .page {
         display: grid; 
         grid-template-columns: 1fr;
-        grid-template-rows: 0.25fr 0.25fr 3fr 1fr; 
+        grid-template-rows: 0.25fr 0.25fr 3fr 0.25fr; 
         gap: 15px 15px; 
         margin-top: 15px;
     }
@@ -188,7 +188,7 @@ body {
     .list {
         grid-area: 3 / 1 / 4 / 2;
         overflow-y: scroll;
-        height: 100vh;
+        height: auto;
         scroll-snap-points-y: repeat(100vh);
         scroll-snap-type: y mandatory;
     }
