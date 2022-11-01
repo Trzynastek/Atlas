@@ -209,7 +209,8 @@ header {
     width: 15px;   
     cursor: pointer;
     fill: #888888;
-    margin: 16 15 0 0;
+    margin: auto 10;
+    transform: translateY(80%);
     transition-duration: 300ms;
 }
 
