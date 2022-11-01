@@ -378,7 +378,7 @@ header {
         cursor: pointer;
         fill: #888888;
         margin: auto 10;
-        transform: translateY(50%);
+        transform: translateY(70%);
         transition-duration: 300ms;
     }
 }
