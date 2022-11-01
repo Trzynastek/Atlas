@@ -6,7 +6,6 @@ html * {
 body {
     background: linear-gradient(150deg, rgba(11,12,25,1) 0%, rgba(32,34,49,1) 100%);
     margin: 15px;
-    overflow: hidden;;
 }
 
 .box {
