@@ -106,7 +106,7 @@ body {
 
 .snap {
     margin-bottom: 15px;
-    margin-rigth: 15px;
+    margin-right: 15px;
     scroll-snap-align: start;
     position: relative;
 }
@@ -177,7 +177,7 @@ header {
     
     .snap {
         margin-bottom: 15px;
-        margin-rigth: 0px;
+        margin-right: 0px;
         scroll-snap-align: start;
         position: relative;
     }
