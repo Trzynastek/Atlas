@@ -244,4 +244,24 @@ body {
         transition-duration: 0.25s;
         cursor: pointer;
     }
+    
+    .tagline {
+        display: flexbox;
+        font-size: 10;
+    }
+
+    .text {
+        font-size: 12;
+    }
+
+    .title {
+        font-size: 16;
+    }
+    
+    .gametitle {
+        margin: auto 0;
+        color: #ff0044;
+        font-size: 16;
+        letter-spacing: 3px;
+    }
 }
