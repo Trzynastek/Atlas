@@ -6,16 +6,18 @@
         <script src="https://kit.fontawesome.com/87fbf2fcd3.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="header box">
-            <div class="logotype" onclick="location.href='index.html';" style="cursor: pointer;">
-                <img class="logo" src="Logo.svg">
-                <p class="name">Atlas</p>
+        <header>
+            <div class="header box">
+                <div class="logotype" onclick="location.href='index.html';" style="cursor: pointer;">
+                    <img class="logo" src="Logo.svg">
+                    <p class="name">Atlas</p>
+                </div>
+                <div class="navigation">
+                    <button class="button mobile">CONTACT</button>
+                    <button class="button">SEARCH</button>
+                </div>
             </div>
-            <div class="navigation">
-                <button class="button mobile">CONTACT</button>
-                <button class="button">SEARCH</button>
-            </div>
-        </div>
+        </header>
         <div class="page">
             <div class="about box">
                 <div class="offset">
@@ -32,12 +34,12 @@
             <div class="sponsor box">
                 <div class="offset">
                     <p class="title">Sponsors</p>
-                    <ul style="margin-left: -20px">
-                        <li class="text">sponsor</li>
+                    <ul class="text" style="margin-left: -20px">
+                        <li>sponsor</li>
                     </ul>
                 </div>
             </div>
-            <div class="contact box">
+            <div class="contact box pc">
                 <div class="offset">
                     <p class="title">Contact us</p>
                     <p onclick="location.href='mailto: atlas.contact@gmail.com';" style="cursor: pointer;">atlas.contact@gmail.com</p>
@@ -45,5 +47,13 @@
             </div>
             <div class="list"></div>
         </div>
+        <footer>
+            <div class="contact box mobile">
+                <div class="offset">
+                    <p class="title">Contact us</p>
+                    <p onclick="location.href='mailto: atlas.contact@gmail.com';" style="cursor: pointer;">atlas.contact@gmail.com</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
