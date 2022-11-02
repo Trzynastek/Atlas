@@ -231,6 +231,10 @@ header {
     fill: #ff0044;
 }
 
+.description {
+    font-size: auto;
+}
+
 @media only screen and (max-device-width: 1080px) {
     
     .search {
