@@ -26,6 +26,14 @@ var list =
 		"platform": "Android",
 		"download": "4.3MB",
 		"link": "https://drive.google.com/file/d/1XzJvQQmecJ6TTO55fBPLkMmlbFgNdHJP/view?usp=share_link"
+	},
+	{
+		"image": "Fifa22.jpg",
+		"title": "Fifa 22",
+		"description": "FUT 22 redesigns Division Rivals and FUT Champions to create a more accessible way to test your skills and progress against other players, gives you even more ways to make your club your own with new depths of customisation both on and off the pitch, and introduces FUT Heroes – the return of some of football’s most memorable players.",
+		"platform": "Windows (EA)",
+		"download": "55.9GB",
+		"link": "https://skidrowcodexgames.com/fifa-22-codex/"
 	}
 ]
 
