@@ -43,7 +43,6 @@ let http = new XMLHttpRequest();
 http.open('get', 'list.json', true);
 http.send();
 http.onload = function(){
-	var query = document.getElementById('search').value;
 	let products = list;
 		let output = "";
 		for(let item of products){
@@ -69,11 +68,11 @@ http.onload = function(){
  }
 
 function search() {
-	var query = document.getElementById('search').value;
+	var query = document.getElementById('search').value.toLowerCase();
 	let products = list;
 		let output = "";
 		for(let item of products){
-			if(item.title.includes(query)) {
+			if(item.title.toLowerCase().includes(query)) {
 				output += `
 					<div class="box snap">
 						<div class="offset item">
