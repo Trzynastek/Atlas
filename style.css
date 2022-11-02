@@ -162,16 +162,11 @@ input:focus::placeholder {
 }
 
 .cover {
-    /*max-width: 150px;
+    max-width: 150px;
     margin-right: 15px;
     border-radius: 10px;
     height: auto;
-    object-fit: contain;*/
-    max-width: 150px;
-    margin-right: 15px;
-    border-radius: 15px;
-    height: auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .tagline {
