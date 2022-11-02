@@ -167,7 +167,6 @@ input:focus::placeholder {
     border-radius: 10px;
     height: auto;
     object-fit: contain;
-    justify-self: flex-start;
 }
 
 .tagline {
