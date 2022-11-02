@@ -2,6 +2,15 @@ var list =
 
 	//JSON
 
+	//{
+	//	"image": "",
+	//	"title": "",
+	//	"description": "",
+	//	"platform": "",
+	//	"download": "",
+	//	"link": ""
+	//}
+
 [
 	{
 		"image": "Saturnalia.jpg",
@@ -26,6 +35,14 @@ var list =
 		"platform": "Android",
 		"download": "4.3MB",
 		"link": "https://drive.google.com/file/d/1XzJvQQmecJ6TTO55fBPLkMmlbFgNdHJP/view?usp=share_link"
+	},
+	{
+		"image": "Chernobylite.jpg",
+		"title": "Chernobylite: Enhanced Deluxe Edition",
+		"description": "Chernobylite is a Science Fiction Survival Horror RPG from developers Farm 51. Set in the hyper-realistic, 3D scanned wasteland of Chernobyl’s exclusion zone, you’ll take on the role of Igor, a physicist and ex-employee of the Chernobyl Power Plant, returning to Pripyat to investigate the mysterious disappearance of his fiancée, 30 years prior. Compete with the hostile military presence, other stalkers and supernatural creatures, as well as the harsh and unforgiving environment in your search to uncover the truth.",
+		"platform": "Windows (Steam, GOG, Epic Games)",
+		"download": "24.2GB",
+		"link": "https://fitgirl-repacks.site/chernobylite/"
 	}
 ]
 
