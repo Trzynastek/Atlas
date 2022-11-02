@@ -115,6 +115,7 @@ input:focus::placeholder {
     border-radius: 8px;
     border-width: 1px;
     border-color: #ffffff;
+    color: #ffffff;
 }
 
 .page {
@@ -257,6 +258,7 @@ header {
         border-radius: 16px;
         border-width: 1px;
         border-color: #ffffff;
+        color: #ffffff;
     }
     
     .snap {
