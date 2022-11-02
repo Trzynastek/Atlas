@@ -161,14 +161,6 @@ input:focus::placeholder {
     letter-spacing: 3px;
 }
 
-.cover {
-    max-width: 150px;
-    margin-right: 15px;
-    border-radius: 10px;
-    height: auto;
-    object-fit: contain;
-}
-
 .tagline {
     display: flexbox;
 }
@@ -231,8 +223,16 @@ header {
     fill: #ff0044;
 }
 
-.description {
-    font-size: auto;
+.coverdiv {
+    max-width: 150px;
+    margin-right: 15px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.cover {
+    border-radius: 10px;
+    height: auto;
 }
 
 @media only screen and (max-device-width: 1080px) {
