@@ -13,7 +13,7 @@ var list =
 
 [
 	{
-		"image": "Saturnalia.jpg",
+		"image": "Saturnalia.jpg"
 		"title": "Saturnalia",
 		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
 		"platform": "Windows (Epic Games)",
