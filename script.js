@@ -54,7 +54,7 @@ var list =
 	},
 	{
 		"image": "SlimeRancher2.jpg",
-		"title": "SlimeRancher2",
+		"title": "Slime Rancher 2",
 		"description": "Slime Rancher 2 is a sequel to the award-winning, smash-hit original that has been enjoyed by over 15 million fans worldwide. Continue the adventures of Beatrix LeBeau as she journeys to Rainbow Island, a mysterious land brimming with ancient technology, unknown natural resources, and an avalanche of wiggling, jiggling, new slimes to discover.",
 		"platform": "Windows",
 		"download": "880MB",
