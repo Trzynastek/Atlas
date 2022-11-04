@@ -174,12 +174,12 @@ input:focus::placeholder {
     margin: auto;
     float: right; 
     cursor: pointer;
-    fill: #888888;
+    color: #888888;
     transition-duration: 300ms;
 }
 
 .icon:hover {
-    fill: #ff0044;
+    color: #ff0044;
 }
 
 
