@@ -171,8 +171,17 @@ input:focus::placeholder {
 }
 
 .icon {
-    margin-top: 25px;
+    margin: auto;
+    float: right; 
+    cursor: pointer;
+    fill: #888888;
+    transition-duration: 300ms;
 }
+
+.icon:hover {
+    fill: #ff0044;
+}
+
 
 .content {
     display: flex;
@@ -218,20 +227,6 @@ header {
 
 .pc {
     visibility: visible;
-}
-
-.download-ico {
-    float: right;
-    width: 15px;   
-    cursor: pointer;
-    fill: #888888;
-    margin: auto 10;
-    transform: translateY(80%);
-    transition-duration: 300ms;
-}
-
-.download-ico:hover {
-    fill: #ff0044;
 }
 
 .coverdiv {
@@ -400,15 +395,5 @@ header {
     
     .description {
         font-size: 12;
-    }
-    
-    .download-ico {
-        float: right;
-        width: 20px;   
-        cursor: pointer;
-        fill: #888888;
-        margin: auto 10;
-        transform: translateY(95%);
-        transition-duration: 300ms;
     }
 }
