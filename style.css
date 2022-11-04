@@ -166,6 +166,10 @@ input:focus::placeholder {
     justify-content: space-between;
 }
 
+.iconbox {
+    display: flex;
+}
+
 .content {
     display: flex;
     flex-direction: column;
