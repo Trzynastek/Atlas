@@ -16,7 +16,7 @@ var list =
 		"image": "Saturnalia.jpg",
 		"title": "Saturnalia",
 		"description": "A third person multi-character roguelite horror adventure: A game inspired and heavily influenced by the folklore of Sardinia, Italy (a region rich with unique traditions and culture) where you play as four characters, experiencing a deeply connected storyline that ties back to the haunting traditions of an ancient village.",
-		"platform": "Windows (Epic Games)",
+		"platform": "Windows",
 		"download": "1.9GB",
 		"link": "https://fitgirl-repacks.site/saturnalia/"
 	},
@@ -40,9 +40,17 @@ var list =
 		"image": "Chernobylite.jpg",
 		"title": "Chernobylite: Enhanced Deluxe Edition",
 		"description": "Chernobylite is a Science Fiction Survival Horror RPG from developers Farm 51. Set in the hyper-realistic, 3D scanned wasteland of Chernobyl’s exclusion zone, you’ll take on the role of Igor, a physicist and ex-employee of the Chernobyl Power Plant, returning to Pripyat to investigate the mysterious disappearance of his fiancée, 30 years prior. Compete with the hostile military presence, other stalkers and supernatural creatures, as well as the harsh and unforgiving environment in your search to uncover the truth.",
-		"platform": "Windows (Steam, GOG, Epic Games)",
+		"platform": "Windows",
 		"download": "24.2GB",
 		"link": "https://fitgirl-repacks.site/chernobylite/"
+	},
+	{
+		"image": "CODMWR",
+		"title": "Call of Duty: Modern Warfare – Remastered",
+		"description": "One of the most critically-acclaimed games in history. Call of Duty®4: Modern Warfare®, is back, remastered in true high-definition, featuring enhanced textures, rendering, high-dynamic range lighting, and much more to bring a new generation experience to fans.",
+		"platform": "Windows",
+		"download": "26.4GB",
+		"link": "https://fitgirl-repacks.site/call-duty-modern-warfare-remastered-update-2/"
 	}
 ]
 
