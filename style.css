@@ -172,10 +172,15 @@ input:focus::placeholder {
 
 .icon {
     margin: auto;
-    float: right; 
     cursor: pointer;
     fill: #888888;
     transition-duration: 300ms;
+}
+
+
+.staticicon {
+    margin: auto;
+    fill: #888888;
 }
 
 .icon:hover {
