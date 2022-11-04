@@ -67,7 +67,7 @@ http.onload = function(){
 				<div class="box snap">
 					<div class="offset item">
 						<div class="coverdiv">
-							<img class="cover" src="covers/${item.image}">
+							<img class="cover" src="covers/${item.image}" loading="lazy">
 						</div>
 						<div class = content>
 							<p class="gametitle">${item.title}</p>
