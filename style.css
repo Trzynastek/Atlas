@@ -170,6 +170,10 @@ input:focus::placeholder {
     display: flex;
 }
 
+.icon {
+    margin-bottom: -15px;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -178,11 +182,13 @@ input:focus::placeholder {
 
 .platforms {
     float: left;
+    margin-left: 10px;
     color:#888888;
 }
 
 .download {
     float: right;
+    margin-right: 10px;
     color:#888888;
 }
 
