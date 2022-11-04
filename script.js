@@ -45,7 +45,7 @@ var list =
 		"link": "https://fitgirl-repacks.site/chernobylite/"
 	},
 	{
-		"image": "CODMWR",
+		"image": "CODMWR.jpg",
 		"title": "Call of Duty: Modern Warfare – Remastered",
 		"description": "One of the most critically-acclaimed games in history. Call of Duty®4: Modern Warfare®, is back, remastered in true high-definition, featuring enhanced textures, rendering, high-dynamic range lighting, and much more to bring a new generation experience to fans.",
 		"platform": "Windows",
