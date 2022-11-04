@@ -163,6 +163,7 @@ input:focus::placeholder {
 
 .tagline {
     display: flex;
+    justify-content: space-between;
 }
 
 .content {
