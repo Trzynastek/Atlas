@@ -140,7 +140,7 @@ input:focus::placeholder {
     overflow-y: scroll;
     height: 93.3vh;
     scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 }
 
 .item {
