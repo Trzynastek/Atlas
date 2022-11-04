@@ -84,7 +84,7 @@ http.onload = function(){
 								<i class="fa-solid fa-layer-group platform-icon"> </i>
 								<p class="platforms">${item.platform}</p>
 								<p class="download">${item.download}</p>
-								<i class="fa-solid fa-square-down download-icon"></i>
+								<i class="fa-solid fa-square-down"></i>
 								</div>
 							</div>
 						</div>
