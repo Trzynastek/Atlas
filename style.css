@@ -162,7 +162,7 @@ input:focus::placeholder {
 }
 
 .tagline {
-    display: inline;
+    display: inline-block;
 }
 
 .content {
