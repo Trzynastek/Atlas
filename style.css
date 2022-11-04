@@ -179,7 +179,7 @@ input:focus::placeholder {
 }
 
 .icon:hover {
-    color: #ff0044;
+    fill: #ff0044;
 }
 
 
