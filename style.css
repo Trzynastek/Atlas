@@ -175,12 +175,14 @@ input:focus::placeholder {
     cursor: pointer;
     fill: #888888;
     transition-duration: 300ms;
+    width: 16px;
 }
 
 
 .staticicon {
     margin: auto;
     fill: #888888;
+    width: 16px;
 }
 
 .icon:hover {
