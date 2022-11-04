@@ -81,10 +81,13 @@ http.onload = function(){
 							<p class="gametitle">${item.title}</p>
 							<p class="description">${item.description}</p>
 							<div class="tagline">
-								<i class="fa-solid fa-layer-group platform-icon"> </i>
-								<p class="platforms">${item.platform}</p>
-								<p class="download">${item.download}</p>
-								<i class="fa-solid fa-file-arrow-down download-icon"></i>
+								<div>
+									<i class="fa-solid fa-layer-group platform-icon"> </i>
+									<p class="platforms">${item.platform}</p>
+								</div>
+								<div>
+									<p class="download">${item.download}</p>
+									<i class="fa-solid fa-file-arrow-down download-icon"></i>
 								</div>
 							</div>
 						</div>
