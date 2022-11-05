@@ -72,7 +72,7 @@ http.onload = function(){
 		let output = "";
 		for(let item of products){
 			output += `
-				<div class="box snap">
+				<iframe class="box snap">
 					<div class="offset item">
 						<div class="coverdiv">
 							<img class="cover" src="covers/${item.image}" loading="lazy">
@@ -96,7 +96,7 @@ http.onload = function(){
 							</div>
 						</div>
 					</div>
-				</div>
+				</iframe>
 			`;
 		}
 		document.querySelector(".list").innerHTML = output;
