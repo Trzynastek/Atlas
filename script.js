@@ -134,7 +134,8 @@ function search() {
 						</div>
 					</div>
 				</div>
-			`;
+				`;
+			}
 		}
 		document.querySelector(".list").innerHTML = output;
  }
