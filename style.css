@@ -219,7 +219,7 @@ header {
 .button {
     height: 20px;
     align-self: center;
-    margin: 0 15px 1px;
+    margin: 0 15px 2px;
     cursor: pointer;
     border: none;
     background: transparent;
@@ -264,6 +264,10 @@ header {
     display: none;
     z-index: 20;
 }
+.game {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
 @media only screen and (max-device-width: 1080px) {
     .search {
         background-color: #00000000;
@@ -282,14 +286,16 @@ header {
         height: 52px;
         width: 52px;
         transition: width 300ms ease-in-out;
+        font-size: 32px;
     }
     .search:focus {
         width: 500px;
         border-style: solid;
         border-radius: 16px;
-        border-width: 1px;
+        border-width: 2px;
         border-color: #ffffff;
         color: #ffffff;
+        outline: none;
     }
     body {
         overflow: scroll;
@@ -340,19 +346,16 @@ header {
     }
     .logo {
         height: 70px;
-        margin: auto 5;
+        margin: auto 5px;
     }
     .name {
-        margin: auto 0;
-        font-size: 32;
+        margin: auto 15px;
+        font-size: 32px;
         letter-spacing: 3px;
     }
     .ico {
         font-size: 32px !important;  
         margin-top: 20px; 
-    }
-    .text {
-        font-size: 8 !important;
     }
     .title {
         font-size: 12;
@@ -366,7 +369,7 @@ header {
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
-        width: 650px;
+        width: 680px;
     }
     .icon {
         margin: auto;
@@ -392,5 +395,12 @@ header {
     .content {
         margin-left: 60px;
         margin-top: 20px;
+    }
+    .game {
+        margin-right: 0px;
+    }
+    .button {
+        font-size: 32px;
+        margin: -20px 15px 0px;
     }
 }
