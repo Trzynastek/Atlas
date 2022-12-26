@@ -46,3 +46,30 @@ fetch(apiUrl)
 	}
 	document.querySelector(".list").innerHTML = output;
 });
+
+function submit() {
+    const title = document.getElementById('issue-title').value;
+    const body = document.getElementById('issue-body').value;
+    fetch(`https://api.github.com/repos/Trzynastek/Public/issues`, {
+      	method: 'POST',
+      	headers: {
+        	'Authorization': `Bearer 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`,
+        	'Content-Type': 'application/json'
+      	},
+      	body: JSON.stringify({
+        	title: title,
+        	body: body
+      	})
+    })
+	hide()
+}
+
+function show() {
+    document.querySelector('.requests').style.display = 'flex';
+	document.querySelector('.form').style.display = 'flex';
+}
+function hide() {
+    document.querySelector('.requests').style.display = 'none';
+	document.querySelector('.form').style.display = 'none';
+}
+const form = document.getElementById('create-issue-form');

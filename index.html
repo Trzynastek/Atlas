@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport", initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <script src="https://kit.fontawesome.com/d7ef0630ea.js" crossorigin="anonymous"></script> 
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
         <title>Atlas</title>
@@ -17,7 +17,10 @@
                     <img class="logo" src="Logo.svg" alt="Logo">
                     <p class="name">Atlas</p>
                 </div>
-                <input type="text" class="search" id="search" placeholder="Search..." autocomplete="off" oninput="search()"></input>
+                <div style="display: flex;">
+                    <input type="text" class="search" id="search" placeholder="Search..." autocomplete="off" oninput="search()"></input>
+                    <button class="button" onclick="show()">Request</button>
+                </div>
             </div>
         </header>
         <div class="page">
@@ -55,6 +58,20 @@
                     <p class="text" onclick="location.href='mailto: atlas.azure.vercel.app@gmail.com';" style="cursor: pointer;">atlas.azure.vercel.app@gmail.com</p>
                     <p class="text">Discord: Trzynu#3121</p>
                 </div>
+            </div>
+        </div>
+        <div class="requests" onclick="hide()"></div>
+        <div class="requestbox box form">
+            <div class="offset">
+                <form id="create-issue-form">
+                    <label for="issue-title">Game/App title:</label>
+                    <input class="input" type="text" id="issue-title" autocomplete="off" />
+                    <br />
+                    <label for="issue-body">Oryginal Game/App link:</label>
+                    <input class="input" type="text" id="issue-body" autocomplete="off" />
+                    <br />
+                    <p class="button" type="button" onclick="submit()">Submit request</p>
+                </form>   
             </div>
         </div>
     </body>
