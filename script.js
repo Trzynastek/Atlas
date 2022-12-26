@@ -7,7 +7,7 @@ fetch(apiUrl)
     	let output = "";
     	for (let item of products) {
     	output += `
-			<div class="box" style="margin-bottom: 15px;">
+			<div class="box" style="margin-bottom: 15px; margin-right: 20px;">
 				<div class="offset item">
 					<div class="coverdiv">
 						<img class="cover" src="covers/${item.image}" loading="lazy" alt="game cover"></img>
