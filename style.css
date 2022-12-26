@@ -1,14 +1,12 @@
 html * {
-    font-family: 'Righteous', cursive !important; 
+    font-family: 'Righteous', cursive; 
     color: white;
 }
-
 body {
     background: linear-gradient(150deg, rgba(11,12,25,1) 0%, rgba(32,34,49,1) 100%);
     margin: 15px;
     overflow: hidden;
 }
-
 .box {
     background-color: #20212e;
     border-radius: 12px;
@@ -17,70 +15,44 @@ body {
     border-style: solid;
     
 }
-
 .discord {
     cursor: pointer;
     color: #7f03fc;
     width: auto;
 }
-
 .discord:hover {
     color: #ff0044;   
 }
-    
 .request {
     overflow-wrap: break-word;
     grid-area: 2 / 1 / 3 / 2;
 }
-
 .header {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-
 .logotype {
     display: flex;
 }
-
 .logo {
     height: 35px;
     margin: auto 5;
 }
-
 .title {
     color: #ff0044;
     font-size: 16;
     letter-spacing: 3px;
+    margin-top: 0;
 }
-
 .name {
     margin: auto 0;
     font-size: 16;
     letter-spacing: 3px;
 }
-
-.button {
-    height: 20px;
-    width: 100px;
-    margin-right: 10px;
-    margin-top: 8px;
-    background: none;
-    border: none;
-    font-size: 16;
-    letter-spacing: 3px;
-    transition-duration: 0.25s;
-    cursor: pointer;
-}
-
-.button:hover {
-    color:#ff0044;
-}
-
 .offset {
     margin: 15px
 }
-
 .search {
     background-color: #00000000;
     background-image: url('search.svg');
@@ -100,15 +72,12 @@ body {
     transition: width 300ms ease-in-out;
     font-size: 16px;
 }
-
 input::placeholder {
     color: #00000000;
-  }
-
+}
 input:focus::placeholder {
     color: white;
-  }
-
+}
 .search:focus {
     width: 300px;
     border-style: solid;
@@ -117,7 +86,6 @@ input:focus::placeholder {
     border-color: #ffffff;
     color: #ffffff;
 }
-
 .page {
     display: grid; 
     grid-template-columns: 1fr 2.5fr; 
@@ -125,132 +93,141 @@ input:focus::placeholder {
     gap: 15px 15px; 
     margin-top: 15px;
 }
-
 .about {
     grid-area: 1 / 1 / 2 / 2;
 }
-
 .contact {
     overflow-wrap: break-word;
     grid-area: 3 / 1 / 4 / 2;
 }
-
 .list {
     grid-area: 1 / 2 / 6 / 3;
     overflow-y: scroll;
     height: 93.3vh;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y proximity;
 }
-
 .item {
     display: flex;
 }
-
-.snap {
-    margin-bottom: 15px;
-    margin-right: 15px;
-    scroll-snap-align: start;
-    position: relative;
-}
-
 .gametitle {
-    margin: auto 0;
     color: #ff0044;
     font-size: 24;
     letter-spacing: 3px;
+    line-height: 20px;
+    margin-top: 0;
 }
-
+.gametitlebox {
+    height: 20px;
+    margin-bottom: 10px;
+}
 .tagline {
     display: flex;
     justify-content: space-between;
 }
-
 .iconbox {
     display: flex;
+    width: fit-content;
+    height: 30px;
+    line-height: 0;
 }
-
 .icon {
     margin: auto;
-    cursor: pointer;
-    fill: #888888;
-    transition-duration: 300ms;
+    fill: #ffffff;
     height: 16px;
 }
-
-
-.staticicon {
-    margin: auto;
-    fill: #888888;
-    height: 16px;
-}
-
-.icon:hover {
-    fill: #ff0044;
-}
-
-
 .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: space-between;
 }
-
-.platforms {
-    float: left;
+.ico {
     margin-left: 10px;
-    color:#888888;
+    color:#ffffff;
 }
-
-.download {
+.size {
     float: right;
-    margin-right: 10px;
-    color:#888888;
+    margin-left: 10px;
+    color:#ffffff;
 }
-
 ::-webkit-scrollbar {
     width: 10px;
 }
-  
 ::-webkit-scrollbar-track {
     background: #ffffff0f;
     border-radius: 5px;
 }
-  
 ::-webkit-scrollbar-thumb {
     background: #ff0044;
     border-radius: 5px;
 }
-
 .mobile {
-    visibility: hidden;
+    display: none !important;
 }
-
 header {
     position: sticky;
     top: 15;
     z-index: 10;
 }
-
 .pc {
-    visibility: visible;
+    display: flex;
 }
-
 .coverdiv {
     max-width: 150px;
     margin-right: 15px;
     border-radius: 10px;
     height: auto;
 }
-
 .cover {
     max-width: 150px;
     border-radius: 10px;
     height: auto;
 }
-
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.linkbox {
+    background-color: #888888;
+    border-radius: 20px;
+    height: 20px;
+    display: flex;
+    padding: 0 10 0 10;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.link {
+    line-height: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: auto;
+    font-size: 12;
+    color: #000000;
+}
+.Torrents {
+    background-color: #2bc430;
+}
+.OneDrive {
+    background-color: #2596be;
+}
+.MegaUp {
+    background-color: #fc040c;
+}
+.Mega {
+    background-color: #e00404;
+}
+.Uptobox {
+    background-color: #70cce4;
+}
+.GoogleDrive {
+    background-color: #f7a900;
+}
+.Mediafire {
+    background-color: #0077ff;
+}
+.Other {
+    background-color: #888888;
+}
 @media only screen and (max-device-width: 1080px) {
-    
     .search {
         background-color: #00000000;
         background-image: url('search.svg');
@@ -269,7 +246,6 @@ header {
         width: 52px;
         transition: width 300ms ease-in-out;
     }
-    
     .search:focus {
         width: 500px;
         border-style: solid;
@@ -278,18 +254,9 @@ header {
         border-color: #ffffff;
         color: #ffffff;
     }
-    
-    .snap {
-        margin-bottom: 15px;
-        margin-right: 0px;
-        scroll-snap-align: start;
-        position: relative;
-    }
-    
     body {
         overflow: scroll;
     }
-
     .header {
         display: flex;
         justify-content: space-between;
@@ -297,7 +264,6 @@ header {
         background-color: #20212e;
         filter: drop-shadow(0px 0px 10px #000000dd);
     }
-
     .page {
         display: grid; 
         grid-template-columns: 1fr;
@@ -305,102 +271,83 @@ header {
         gap: 15px 15px; 
         margin-top: 15px;
     }
-    
     .pc {
-        visibility: hidden;
+        display: none;
     }
-
     .about {
         grid-area: 1 / 1 / 2 / 2;
     }
-    
     .sponsor {
         overflow-wrap: break-word;
         grid-area: 2 / 1 / 3 / 2;
-    }
-    
+    }  
     .contact {
         overflow-wrap: break-word;
         grid-area: 4 / 1 / 5 / 2;
-    }
-    
+    }   
     .list {
         grid-area: 3 / 1 / 4 / 2;
         overflow-y: visible;
         height: auto;
-        scroll-snap-points-y: repeat(100vh);
-        scroll-snap-type: y mandatory;
     }
-
     .mobile {
-        visibility: visible;
+        display: flex !important;
     }
-    
     html * {
     font-family: 'Righteous', cursive !important; 
     color: white;
     font-size: 12;
     }
-    
-    .gametitle {
-    margin: auto 0;
-    color: #ff0044;
-    font-size: 16;
-    letter-spacing: 3px;
-    }
-    
     .header {
         display: flex;
         justify-content: space-between;
         width: 100%;
         height: 80px;
     }
-
     .logo {
         height: 70px;
         margin: auto 5;
     }
-    
     .name {
         margin: auto 0;
         font-size: 32;
         letter-spacing: 3px;
     }
-
-    .button {
-        height: 40px;
-        width: 200px;
-        margin-right: 10px;
-        margin-top: 16px;
-        background: none;
-        border: none;
-        font-size: 32;
-        letter-spacing: 3px;
-        transition-duration: 0.25s;
-        cursor: pointer;
+    .ico {
+        font-size: 24;  
+        margin-top: 15px; 
     }
-    
-    .download,
-    .platforms {
-        font-size: 24;   
-    }
-
     .text {
-        font-size: 8;
+        font-size: 8 !important;
     }
-
     .title {
         font-size: 12;
     }
-    
     .gametitle {
         margin: auto 0;
         color: #ff0044;
         font-size: 16;
         letter-spacing: 3px;
+        line-height: 20px;
+        margin-top: 0;
     }
-    
-    .description {
-        font-size: 12;
+    .icon {
+        margin: auto;
+        fill: #ffffff;
+        height: 24px;
+    }
+    .linkbox {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        border-radius: 30px;
+        height: 30px;
+    }
+    .link {
+        line-height: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: auto;
+        font-size: 18;
+        color: #000000;
     }
 }
