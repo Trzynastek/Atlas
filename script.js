@@ -37,11 +37,11 @@ fetch(apiUrl)
 							for (let linkType in item.links) {
 								output += `<div class="${linkType} linkbox pc" onclick="location.href='${item.links[linkType]}'"><p class="link">${linkType}</p></div>`
 							}
-							output += `</div></div></div><div class="links">`;
+							output += `</div></div></div></div><div class="box outerlinkcontainer mobile"><div class=offset><div class="linkcontainer"><p id="download">Download :</p>`;
 							for (let linkType in item.links) {
 								output += `<div class="${linkType} linkbox mobile" onclick="location.href='${item.links[linkType]}'"><p class="link">${linkType}</p></div>`
 							}
-							output +=`</div></div>`;
+							output +=`</div></div></div>`;
 
 	}
 	document.querySelector(".list").innerHTML = output;

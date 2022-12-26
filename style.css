@@ -3,7 +3,7 @@ html * {
     color: white;
 }
 body {
-    background: linear-gradient(150deg, rgba(11,12,25,1) 0%, rgba(32,34,49,1) 100%);
+    background: #100c1c;
     margin: 15px;
     overflow: hidden;
 }
@@ -395,12 +395,32 @@ header {
     .content {
         margin-left: 60px;
         margin-top: 20px;
+        min-height: 200.66px;
+        margin-bottom: 20px;
     }
     .game {
         margin-right: 0px;
+        position: relative;
     }
     .button {
         font-size: 32px;
         margin: -20px 15px 0px;
+    }
+    .links {
+        position: absolute;
+        bottom: 0;
+    }
+    .linkcontainer {
+        display: flex;
+    }
+    .outerlinkcontainer {
+        height: 80px;
+        margin-bottom: 20px;
+        border-radius: 12px 12px 40px 12px;
+    }
+    #download {
+        font-size: 32px;
+        line-height: 0px;
+        margin-top: 26px;
     }
 }
