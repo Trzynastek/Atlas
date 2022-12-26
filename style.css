@@ -119,10 +119,6 @@ input:focus::placeholder {
     height: 20px;
     margin-bottom: 10px;
 }
-.tagline {
-    display: flex;
-    justify-content: space-between;
-}
 .iconbox {
     display: flex;
     width: fit-content;
@@ -141,11 +137,6 @@ input:focus::placeholder {
     align-items: space-between;
 }
 .ico {
-    margin-left: 10px;
-    color:#ffffff;
-}
-.size {
-    float: right;
     margin-left: 10px;
     color:#ffffff;
 }
