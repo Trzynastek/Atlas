@@ -336,7 +336,7 @@ header {
     html * {
     font-family: 'Righteous', cursive !important; 
     color: white;
-    font-size: 1.3vw;
+    font-size: 16px;
     }
     .header {
         display: flex;
@@ -422,5 +422,17 @@ header {
         font-size: 32px;
         line-height: 0px;
         margin-top: 26px;
+    }
+    .issue {
+        font-size: 32px;
+    }
+    .input {
+        height: 50px;
+        border-radius: 25px;
+        font-size: 32px;
+    }
+    #submit {
+        padding: 40px;
+        font-size: 38px;
     }
 }

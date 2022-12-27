@@ -38,7 +38,10 @@
             <div class="request box">
                 <div class="offset">
                     <p class="title">Missing apps?</p>
-                    <p class="text">You can request new games/apps using button in the top-right corner.</p>
+                    <p class="text">You can request apps on our discord.<br/>
+                    You can also help us by submiting cracked apps that you use and know are safe.</p>
+                    <br/>
+                    <p><span onclick="location.href='https://discord.gg/4U7AZbgqYD';" class="discord">Join discord server</span></p>
                 </div>
             </div>
             <div class="contact box pc">
@@ -61,13 +64,13 @@
         <div class="requestbox box form">
             <div class="offset">
                 <form id="create-issue-form">
-                    <label for="issue-title">Game/App title:</label>
+                    <label class="issue" for="issue-title">Game/App title:</label>
                     <input class="input" type="text" id="issue-title" autocomplete="off" />
                     <br />
-                    <label for="issue-body">Oryginal Game/App link:</label>
+                    <label class="issue" for="issue-body">Oryginal Game/App link:</label>
                     <input class="input" type="text" id="issue-body" autocomplete="off" />
                     <br />
-                    <p class="button" type="button" onclick="submit()">Submit request</p>
+                    <p id="submit" class="button" type="button" onclick="submit()">Submit request</p>
                 </form>   
             </div>
         </div>
