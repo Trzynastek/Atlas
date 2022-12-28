@@ -1,6 +1,7 @@
 html * {
     font-family: 'Righteous', cursive; 
     color: white;
+    font-size: calc(8px + 0.58vw);
 }
 body {
     background: #100c1c;
