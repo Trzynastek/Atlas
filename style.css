@@ -15,6 +15,9 @@ body {
     border-style: solid;
     
 }
+.note {
+    color: #fc9803;
+}
 .discord {
     cursor: pointer;
     color: #7f03fc;
