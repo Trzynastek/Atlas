@@ -276,6 +276,7 @@ header {
 }
 #titlebar {
     font-size: 16px;
+    margin-top: 7px;
 }
 @media only screen and (max-device-width: 1080px) {
     .search {
