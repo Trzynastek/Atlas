@@ -227,7 +227,8 @@ header {
     cursor: pointer;
     border: none;
     background: transparent;
-    font-size: 16px;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 .button:hover {
     color: #ff0044;
@@ -256,6 +257,7 @@ header {
 }
 .input {
     margin-top: 5px;
+    margin-bottom: 15px;
     background-color: #100c1c;
     border: none;
     border-radius: 10px;
