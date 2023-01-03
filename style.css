@@ -4,15 +4,13 @@ html * {
     font-size: calc(8px + 0.59vw);
     --text: #e1e1e1;
     --primary: #ff0044;
-    --secondary: #0a0a0acf;
-    --border: #ffffff0f;
+    --secondary: #202029;
+    --border: #ffffff00;
     --important: #fc9803;
 }
 body {
-    background: radial-gradient(circle at 100% 20%, #442edc, #422ed7, #3e2dc9, #382bb4, #32299b, #2c2580, #262164, #211c4a, #1c1834, #171422, #121017, #100f13, #100f13, #100f13, #100f13, #100f13, #100f13, #100f13, #100f13);
-    background-size: 200% 200%;
-    background-position: 70% 70%;
-    margin: 15px;
+    background-color: #15151b;
+    padding: 15px 15px;
     overflow: hidden;
 }
 .box {
@@ -156,9 +154,10 @@ input:focus::placeholder {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: var(--secondary);
+    background: var(--text)0f;
     border-radius: 5px;
     margin-bottom: 15px;
+    background-color: var(--secondary);
 }
 ::-webkit-scrollbar-thumb {
     background: var(--primary);
@@ -202,11 +201,12 @@ input:fucus {
     margin: 0 10px 5px 0;
 }
 .link {
-    line-height: 0px;
+    line-height: 12px;
     margin: auto;
     font-size: 12;
     color: #000000;
     cursor: pointer;
+    margin-top: 7px;
 }
 .Torrents {
     background-color: #2bc430;
@@ -389,7 +389,7 @@ input:fucus {
     }
     .linkbox {
         margin-left: 15px;
-        margin-bottom: 15px;
+        margin-top: 5px;
         border-radius: 30px;
         height: 50px;
         padding: 0 20px 0 20px;
@@ -423,9 +423,11 @@ input:fucus {
     }
     .linkcontainer {
         display: flex;
+        flex-wrap: wrap;
+        float: right;
     }
     .outerlinkcontainer {
-        height: 80px;
+        height: fit-content;
         margin-bottom: 20px;
         border-radius: 12px 12px 40px 12px;
     }
@@ -433,6 +435,8 @@ input:fucus {
         font-size: 32px;
         line-height: 0px;
         margin-top: 26px;
+        margin-right: 5px;
+        min-width: 180px;
     }
     .issue {
         font-size: 32px;
@@ -445,5 +449,8 @@ input:fucus {
     #submit {
         padding: 40px;
         font-size: 38px;
+    }
+    #linkoffset {
+        display: flex;
     }
 }
