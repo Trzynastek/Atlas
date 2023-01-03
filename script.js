@@ -7,7 +7,7 @@ async function fetchData() {
 	const data = await response.json();
 	document.querySelector(".list").innerHTML = "";
 	const items = [];  // create an empty array to store the data
-	for (let item of data) {
+	for (let item of data.reverse()) {
 	  image = item.image;
 	  title = item.title;
 	  platform = item.platform;
