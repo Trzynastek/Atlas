@@ -2,22 +2,28 @@ html * {
     font-family: 'Righteous', cursive; 
     color: white;
     font-size: calc(8px + 0.59vw);
+    --text: #e1e1e1;
+    --primary: #ff0044;
+    --secondary: #0a0a0acf;
+    --border: #ffffff0f;
+    --important: #fc9803;
 }
 body {
-    background: #100c1c;
+    background: radial-gradient(circle at 100% 20%, #442edc, #422ed7, #3e2dc9, #382bb4, #32299b, #2c2580, #262164, #211c4a, #1c1834, #171422, #121017, #100f13, #100f13, #100f13, #100f13, #100f13, #100f13, #100f13, #100f13);
+    background-size: 200% 200%;
+    background-position: 70% 70%;
     margin: 15px;
     overflow: hidden;
 }
 .box {
-    background-color: #20212e;
+    background-color: var(--secondary);
     border-radius: 12px;
-    border-color: #2b2b2b;
+    border-color: var(--border);
     border-width: 1px;
     border-style: solid;
-    
 }
 .note {
-    color: #fc9803;
+    color: var(--important);
 }
 .discord {
     cursor: pointer;
@@ -25,7 +31,7 @@ body {
     width: auto;
 }
 .discord:hover {
-    color: #ff0044;   
+    color: var(--primary);   
 }
 .request {
     overflow-wrap: break-word;
@@ -44,7 +50,7 @@ body {
     margin: auto 5px 2px;
 }
 .title {
-    color: #ff0044;
+    color: var(--primary);
     font-size: 16;
     letter-spacing: 3px;
     margin-top: 0;
@@ -88,8 +94,8 @@ input:focus::placeholder {
     border-style: solid;
     border-radius: 8px;
     border-width: 1px;
-    border-color: #ffffff;
-    color: #ffffff;
+    border-color: var(--text);
+    color: var(--text);
     outline: none;
 }
 .page {
@@ -115,7 +121,7 @@ input:focus::placeholder {
     display: flex;
 }
 .gametitle {
-    color: #ff0044;
+    color: var(--primary);
     font-size: 24;
     line-height: 20px;
     margin-top: 0;
@@ -132,7 +138,7 @@ input:focus::placeholder {
 }
 .icon {
     margin: auto;
-    fill: #ffffff;
+    fill: var(--text);
     height: 16px;
 }
 .content {
@@ -143,18 +149,19 @@ input:focus::placeholder {
 }
 .ico {
     margin-left: 10px;
-    color:#ffffff;
+    color:var(--text);
     margin-top: 11px;
 }
 ::-webkit-scrollbar {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #ffffff0f;
+    background: var(--text)0f;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #ff0044;
+    background: var(--primary);
     border-radius: 5px;
 }
 .mobile {
@@ -164,6 +171,9 @@ header {
     position: sticky;
     top: 15;
     z-index: 10;
+}
+input:fucus {
+    outline: none;
 }
 .pc {
     display: flex;
@@ -196,6 +206,7 @@ header {
     margin: auto;
     font-size: 12;
     color: #000000;
+    cursor: pointer;
 }
 .Torrents {
     background-color: #2bc430;
@@ -232,7 +243,7 @@ header {
     margin-bottom: 10px;
 }
 .button:hover {
-    color: #ff0044;
+    color: var(--primary);
 }
 .requestbox {
     position: fixed;
@@ -255,17 +266,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-}
-.input {
-    margin-top: 5px;
-    margin-bottom: 15px;
-    background-color: #100c1c;
-    border: none;
-    border-radius: 10px;
-    line-height: 20px;
-}
-.input:focus {
-    outline: none;
 }
 .form {
     display: none;
@@ -304,8 +304,8 @@ header {
         border-style: solid;
         border-radius: 16px;
         border-width: 2px;
-        border-color: #ffffff;
-        color: #ffffff;
+        border-color: var(--text);
+        color: var(--text);
         outline: none;
     }
     body {
@@ -315,7 +315,7 @@ header {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        background-color: #20212e;
+        background-color: var(--secondary);
         filter: drop-shadow(0px 0px 10px #000000dd);
     }
     .page {
@@ -373,7 +373,7 @@ header {
     }
     .gametitle {
         margin: auto 0;
-        color: #ff0044;
+        color: var(--primary);
         font-size: 36px;
         line-height: 40px;
         margin-top: 0;
@@ -384,7 +384,7 @@ header {
     }
     .icon {
         margin: auto;
-        fill: #ffffff;
+        fill: var(--text);
         height: 38px;
     }
     .linkbox {
