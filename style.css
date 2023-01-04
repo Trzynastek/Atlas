@@ -457,4 +457,13 @@ input:fucus {
         font-size: 32px;
         margin-top: -24px;
     }
+    .offset {
+        margin: 20px;
+    }
+    .box {
+        border-radius: 16px;
+    }
+    .cover {
+        border-radius: 14px;
+    }
 }
