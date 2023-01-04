@@ -279,7 +279,8 @@ input:fucus {
     font-size: 16px;
     margin-top: 7px;
 }
-#issue-title {
+#issue-title,
+#issue-body {
     background-color: #15151b;
 }
 @media only screen and (max-device-width: 1080px) {
