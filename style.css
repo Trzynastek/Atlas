@@ -156,7 +156,7 @@ input:focus::placeholder {
 ::-webkit-scrollbar-track {
     background: var(--text)0f;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 2vh;
     background-color: var(--secondary);
 }
 ::-webkit-scrollbar-thumb {
