@@ -347,7 +347,7 @@ input:fucus {
     html * {
     font-family: 'Righteous', cursive !important; 
     color: white;
-    font-size: 16px;
+    font-size: 32px;
     }
     .header {
         display: flex;
@@ -452,5 +452,9 @@ input:fucus {
     }
     #linkoffset {
         display: flex;
+    }
+    #titlebar {
+        font-size: 32px;
+        margin-top: -24px;
     }
 }
