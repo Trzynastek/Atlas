@@ -282,6 +282,7 @@ input:fucus {
 #issue-title,
 #issue-body {
     background-color: #15151b;
+    margin-top: 5px;
 }
 @media only screen and (max-device-width: 1080px) {
     .search {
